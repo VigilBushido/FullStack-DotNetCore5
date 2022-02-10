@@ -1,11 +1,11 @@
 {
-  "name": "fullstack_app",
+  "name": "my_new_app",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build:ssr": "ng run fullstack_App:server:dev",
+    "build:ssr": "ng run my_new_app:server:dev",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"

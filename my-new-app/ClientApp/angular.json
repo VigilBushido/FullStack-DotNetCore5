@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "fullstack_App": {
+    "my_new_app": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -50,18 +50,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "fullstack_App:build"
+            "browserTarget": "my_new_app:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "fullstack_App:build:production"
+              "browserTarget": "my_new_app:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "fullstack_App:build"
+            "browserTarget": "my_new_app:build"
           }
         },
         "test": {
@@ -111,7 +111,7 @@
         }
       }
     },
-    "fullstack_App-e2e": {
+    "my_new_app-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -119,7 +119,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "fullstack_App:serve"
+            "devServerTarget": "my_new_app:serve"
           }
         },
         "lint": {
@@ -132,5 +132,5 @@
       }
     }
   },
-  "defaultProject": "fullstack_App"
+  "defaultProject": "my_new_app"
 }

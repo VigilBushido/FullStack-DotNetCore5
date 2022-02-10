@@ -1,6 +1,6 @@
 using System;
 
-namespace fullstack_App
+namespace my_new_app
 {
     public class WeatherForecast
     {

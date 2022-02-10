@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace fullstack_App.Controllers
+namespace my_new_app.Controllers
 {
     [ApiController]
     [Route("[controller]")]
